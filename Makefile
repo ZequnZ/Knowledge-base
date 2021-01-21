@@ -1,5 +1,7 @@
-
 SHELL=/bin/bash
 
 init:
-		@cp .env.origin .env
+		@docker-compose -f notebook.yml up --build
+
+notebook:
+		@docker-compose -f notebook.yml up --no-build
