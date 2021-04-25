@@ -85,13 +85,6 @@ def main(args):
         .replace("**Constraints:**", "### Constraints:")
     )
 
-    # hints
-    hints = "### Hints:\n"
-    for i, h in enumerate(r.json()["data"]["question"]["hints"], 1):
-        hints += f"<details>\n<summary> hint {i}</summary>\n\n"
-        hints += html2text.html2text(h)
-        hints += "\n</details>\n"
-
     with open(title + ".md", "w", encoding="utf-8") as f:
         title = "# " + title + "\n"
         f.write(title)
@@ -99,7 +92,14 @@ def main(args):
         f.write(difficulty)
         f.write(tags)
         f.write("## Description:  \n" + content)
-        f.write(hints)
+        if len(r.json()["data"]["question"]["hints"]) > 0:
+            # hints
+            hints = "### Hints:\n"
+            for i, h in enumerate(r.json()["data"]["question"]["hints"], 1):
+                hints += f"<details>\n<summary> hint {i}</summary>\n\n"
+                hints += html2text.html2text(h)
+                hints += "\n</details>\n"
+            f.write(hints)
         f.write("\n\n## Solution:  \n")
 
 
