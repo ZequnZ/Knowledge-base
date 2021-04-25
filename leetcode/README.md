@@ -4,8 +4,7 @@
 
 ## Script to get the leetcode question details in a Markdown file
 
-With the following command,
-a Markdown file with leetcode question information will be generated.
+With the following command, a Markdown file with leetcode question information will be generated.
 
 ```
 python gen_question_markdown.py <question title>

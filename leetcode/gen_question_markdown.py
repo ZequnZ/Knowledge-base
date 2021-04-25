@@ -86,8 +86,7 @@ def main(args):
     )
 
     with open(title + ".md", "w", encoding="utf-8") as f:
-        title = "# " + title + "\n"
-        f.write(title)
+        f.write("# " + title + "\n")
         f.write(f"[Link]({question_link})\n\n")
         f.write(difficulty)
         f.write(tags)
@@ -104,6 +103,23 @@ def main(args):
         f.write("\n\n### Explanation:  \n")
         f.write("\n\n### Code:  \n")
         f.write("```python\n\n```\n")
+        f.close()
+
+        # Insert the link in README.md:
+
+        # Get the current content
+        with open("./README.md", "r", encoding="utf-8") as f:
+            lines = f.readlines()
+            f.close()
+
+        # Insert the link:
+        lines.insert(2, f"[{title}.md](./{title.replace(' ', '%20')}.md)\n")
+
+        # Write it back
+        with open("./README.md", "w", encoding="utf-8") as f:
+            for line in lines:
+                f.write(line)
+            f.close()
 
 
 if __name__ == "__main__":
