@@ -1,6 +1,6 @@
 # Leetcode collections
 
-
+[48. Rotate Image.md](./48.%20Rotate%20Image.md)
 
 ## Script to get the leetcode question details in a Markdown file
 
