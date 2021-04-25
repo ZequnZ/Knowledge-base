@@ -101,6 +101,9 @@ def main(args):
                 hints += "\n</details>\n"
             f.write(hints)
         f.write("\n\n## Solution:  \n")
+        f.write("\n\n### Explanation:  \n")
+        f.write("\n\n### Code:  \n")
+        f.write("```python\n\n```\n")
 
 
 if __name__ == "__main__":
