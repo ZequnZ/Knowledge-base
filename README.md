@@ -1,4 +1,4 @@
-# Knowledge base 知识库
+# Knowledge base / 知识库
 
 This repo is created to share/back up some knowledge/interesting stuff for having fun.  
 本仓库作为个人的编程游乐场，存放个人的知识积累和新鲜尝试。
@@ -6,6 +6,13 @@ This repo is created to share/back up some knowledge/interesting stuff for havin
 To eusure an independent and reproducible developemnt environment, mainly I will use **Docker container** plus some other useful tools, which are easy and conventient to use and maintain.
 
 开发环境的关键要素为**独立性**和**易重现性**，为此，我将使用以**Docker container**为主的一系列实用工具，以保证其在使用和维护上的便利性。
+
+### Leetcode collections / Leetcode收藏夹
+
+Collect
+See [leetcode collections](./leetcode)
+
+整理与收集做过的Leetcode题目，详见[Leetcode收藏夹](./leetcode)
 
 ### Python
 [Jupyter notebook](https://jupyter.org/) is an amazing and also common tool for python to do experiments and save the results.  
@@ -24,4 +31,5 @@ Also, I promote using lastest stuff(That's why people put their effort for them,
 - Put all Python packages into [requirements.txt](requirments.txt)
 - `make init`: Build/rebuild the container.
 - `make notebook`: Spin up the jupyter-lab built in the container.
-- `make dash`: Go into the bash of the running container.  
+- `make bash`: Go into the bash of the running container.  
+- `make lc`: Go into the running container and have leetcode as working directory. 
