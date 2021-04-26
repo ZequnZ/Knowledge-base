@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[696. Count Binary Substrings.md](./696.%20Count%20Binary%20Substrings.md)
 [48. Rotate Image.md](./48.%20Rotate%20Image.md)
 
 ## Script to get the leetcode question details in a Markdown file
