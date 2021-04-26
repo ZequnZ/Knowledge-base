@@ -4,8 +4,6 @@ services:
     build:
       context: ./
       dockerfile: Dockerfile
-      # args:
-        # - PIP_EXTRA_INDEX_URL=${BUILD_ARG_PIP_EXTRA_INDEX_URL}
     volumes:
       - ./:/app
     ports:
