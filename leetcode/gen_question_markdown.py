@@ -85,11 +85,26 @@ def main(args):
         .replace("**Constraints:**", "### Constraints:")
     )
 
+    # similar question
+    sq_list = json.loads(r.json()["data"]["question"]["similarQuestions"])
+
     with open(title + ".md", "w", encoding="utf-8") as f:
         f.write("# " + title + "\n")
         f.write(f"[Link]({question_link})\n\n")
         f.write(difficulty)
         f.write(tags)
+        # If similar question exists
+        if len(sq_list) > 0:
+            sq = ""
+            for q in sq_list:
+                sq += f"[{q['title']}](https://leetcode.com/problems/{q['titleSlug']}/)\t`{q['difficulty']}`\n\n"
+            sq = (
+                "<details>\n<summary> Similar Questions</summary>\n\n"
+                + sq
+                + "\n</details>\n\n"
+            )
+            f.write(sq)
+
         f.write("## Description:  \n" + content)
         if len(r.json()["data"]["question"]["hints"]) > 0:
             # hints
