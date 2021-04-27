@@ -103,6 +103,7 @@ def main(args):
         f.write("\n\n### Explanation:  \n")
         f.write("\n\n### Code:  \n")
         f.write("```python\n\n```\n")
+        f.write("\n\n### Other great solutions:\n\n")
         f.close()
 
         # Insert the link in README.md:
