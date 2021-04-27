@@ -129,7 +129,7 @@ def main(args):
             f.close()
 
         # Insert the link:
-        lines.insert(2, f"[{title}.md](./{title.replace(' ', '%20')}.md)  \n")
+        lines.insert(2, f"[{title}](./{title.replace(' ', '%20')}.md)  \n")
 
         # Write it back
         with open("./README.md", "w", encoding="utf-8") as f:
