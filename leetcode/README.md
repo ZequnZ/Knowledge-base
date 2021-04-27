@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[1476. Count Negative Numbers in a Sorted Matrix.md](./1476.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.md)  
 [696. Count Binary Substrings.md](./696.%20Count%20Binary%20Substrings.md)  
 [48. Rotate Image.md](./48.%20Rotate%20Image.md)
 
