@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[207. Course Schedule](./207.%20Course%20Schedule.md)  
 [1603. Running Sum of 1d Array](./1603.%20Running%20Sum%20of%201d%20Array.md)  
 [58. Length of Last Word](./58.%20Length%20of%20Last%20Word.md)  
 [34. Find First and Last Position of Element in Sorted Array](./34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.md)   
