@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[45. Jump Game II](./45.%20Jump%20Game%20II.md)  
 [665. Non-decreasing Array](./665.%20Non-decreasing%20Array.md)  
 [207. Course Schedule](./207.%20Course%20Schedule.md)  
 [1603. Running Sum of 1d Array](./1603.%20Running%20Sum%20of%201d%20Array.md)  
