@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[834. Ambiguous Coordinates](./834.%20Ambiguous%20Coordinates.md)  
 [583. Delete Operation for Two Strings](./583.%20Delete%20Operation%20for%20Two%20Strings.md)  
 [109. Convert Sorted List to Binary Search Tree](./109.%20Convert%20Sorted%20List%20to%20Binary%20Search%20Tree.md)  
 [45. Jump Game II](./45.%20Jump%20Game%20II.md)  
