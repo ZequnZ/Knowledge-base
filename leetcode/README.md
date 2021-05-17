@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[1129. Longest String Chain](./1129.%20Longest%20String%20Chain.md)  
 [1008. Binary Tree Cameras](./1008.%20Binary%20Tree%20Cameras.md)  
 [834. Ambiguous Coordinates](./834.%20Ambiguous%20Coordinates.md)  
 [583. Delete Operation for Two Strings](./583.%20Delete%20Operation%20for%20Two%20Strings.md)  
