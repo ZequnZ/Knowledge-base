@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[150. Evaluate Reverse Polish Notation](./150.%20Evaluate%20Reverse%20Polish%20Notation.md)  
 [742. To Lower Case](./742.%20To%20Lower%20Case.md)  
 [51. N-Queens](./51.%20N-Queens.md)  
 [926. Find and Replace Pattern](./926.%20Find%20and%20Replace%20Pattern.md)  
