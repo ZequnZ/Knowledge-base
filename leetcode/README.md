@@ -1,5 +1,10 @@
 # Leetcode collections
 
+[143. Reorder List](./143.%20Reorder%20List.md)  
+[206. Reverse Linked List](./206.%20Reverse%20Linked%20List.md)  
+[19. Remove Nth Node From End of List](./19.%20Remove%20Nth%20Node%20From%20End%20of%20List.md)  
+[141. Linked List Cycle](./141.%20Linked%20List%20Cycle.md)  
+[24. Swap Nodes in Pairs](./24.%20Swap%20Nodes%20in%20Pairs.md)  
 [318. Maximum Product of Word Lengths](./318.%20Maximum%20Product%20of%20Word%20Lengths.md)  
 [150. Evaluate Reverse Polish Notation](./150.%20Evaluate%20Reverse%20Polish%20Notation.md)  
 [742. To Lower Case](./742.%20To%20Lower%20Case.md)  
