@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[753. Open the Lock](./753.%20Open%20the%20Lock.md)  
 [128. Longest Consecutive Sequence](./128.%20Longest%20Consecutive%20Sequence.md)  
 [143. Reorder List](./143.%20Reorder%20List.md)  
 [206. Reverse Linked List](./206.%20Reverse%20Linked%20List.md)  
