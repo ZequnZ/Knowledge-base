@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[747. Min Cost Climbing Stairs](./747.%20Min%20Cost%20Climbing%20Stairs.md)  
 [753. Open the Lock](./753.%20Open%20the%20Lock.md)  
 [128. Longest Consecutive Sequence](./128.%20Longest%20Consecutive%20Sequence.md)  
 [143. Reorder List](./143.%20Reorder%20List.md)  
