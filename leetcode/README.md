@@ -1,5 +1,7 @@
 # Leetcode collections
 
+[374. Guess Number Higher or Lower](./374.%20Guess%20Number%20Higher%20or%20Lower.md)  
+[278. First Bad Version](./278.%20First%20Bad%20Version.md)  
 [747. Min Cost Climbing Stairs](./747.%20Min%20Cost%20Climbing%20Stairs.md)  
 [753. Open the Lock](./753.%20Open%20the%20Lock.md)  
 [128. Longest Consecutive Sequence](./128.%20Longest%20Consecutive%20Sequence.md)  
