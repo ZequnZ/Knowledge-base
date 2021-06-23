@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[92. Reverse Linked List II](./92.%20Reverse%20Linked%20List%20II.md)  
 [374. Guess Number Higher or Lower](./374.%20Guess%20Number%20Higher%20or%20Lower.md)  
 [278. First Bad Version](./278.%20First%20Bad%20Version.md)  
 [747. Min Cost Climbing Stairs](./747.%20Min%20Cost%20Climbing%20Stairs.md)  
