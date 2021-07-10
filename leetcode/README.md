@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[89. Gray Code](./89.%20Gray%20Code.md)  
 [300. Longest Increasing Subsequence](./300.%20Longest%20Increasing%20Subsequence.md)  
 [1491. Bulb Switcher III](./1491.%20Bulb%20Switcher%20III.md)  
 [92. Reverse Linked List II](./92.%20Reverse%20Linked%20List%20II.md)  
