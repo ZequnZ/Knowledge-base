@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[807. Custom Sort String](./807.%20Custom%20Sort%20String.md)  
 [658. Find K Closest Elements](./658.%20Find%20K%20Closest%20Elements.md)  
 [89. Gray Code](./89.%20Gray%20Code.md)  
 [300. Longest Increasing Subsequence](./300.%20Longest%20Increasing%20Subsequence.md)  
