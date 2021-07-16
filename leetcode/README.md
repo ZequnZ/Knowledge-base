@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[162. Find Peak Element](./162.%20Find%20Peak%20Element.md)  
 [611. Valid Triangle Number](./611.%20Valid%20Triangle%20Number.md)  
 [807. Custom Sort String](./807.%20Custom%20Sort%20String.md)  
 [658. Find K Closest Elements](./658.%20Find%20K%20Closest%20Elements.md)  
