@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[963. Three Equal Parts](./963.%20Three%20Equal%20Parts.md)  
 [162. Find Peak Element](./162.%20Find%20Peak%20Element.md)  
 [611. Valid Triangle Number](./611.%20Valid%20Triangle%20Number.md)  
 [807. Custom Sort String](./807.%20Custom%20Sort%20String.md)  
