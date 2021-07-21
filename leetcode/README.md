@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[94. Binary Tree Inorder Traversal](./94.%20Binary%20Tree%20Inorder%20Traversal.md)  
 [73. Set Matrix Zeroes](./73.%20Set%20Matrix%20Zeroes.md)  
 [1984. Maximum Distance Between a Pair of Values](./1984.%20Maximum%20Distance%20Between%20a%20Pair%20of%20Values.md)  
 [963. Three Equal Parts](./963.%20Three%20Equal%20Parts.md)  
