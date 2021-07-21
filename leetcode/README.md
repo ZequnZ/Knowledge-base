@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[98. Validate Binary Search Tree](./98.%20Validate%20Binary%20Search%20Tree.md)  
 [94. Binary Tree Inorder Traversal](./94.%20Binary%20Tree%20Inorder%20Traversal.md)  
 [73. Set Matrix Zeroes](./73.%20Set%20Matrix%20Zeroes.md)  
 [1984. Maximum Distance Between a Pair of Values](./1984.%20Maximum%20Distance%20Between%20a%20Pair%20of%20Values.md)  
