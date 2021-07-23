@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[100. Same Tree](./100.%20Same%20Tree.md)  
 [99. Recover Binary Search Tree](./99.%20Recover%20Binary%20Search%20Tree.md)  
 [98. Validate Binary Search Tree](./98.%20Validate%20Binary%20Search%20Tree.md)  
 [94. Binary Tree Inorder Traversal](./94.%20Binary%20Tree%20Inorder%20Traversal.md)  
