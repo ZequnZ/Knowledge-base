@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[101. Symmetric Tree](./101.%20Symmetric%20Tree.md)  
 [100. Same Tree](./100.%20Same%20Tree.md)  
 [99. Recover Binary Search Tree](./99.%20Recover%20Binary%20Search%20Tree.md)  
 [98. Validate Binary Search Tree](./98.%20Validate%20Binary%20Search%20Tree.md)  
