@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[114. Flatten Binary Tree to Linked List](./114.%20Flatten%20Binary%20Tree%20to%20Linked%20List.md)  
 [111. Minimum Depth of Binary Tree](./111.%20Minimum%20Depth%20of%20Binary%20Tree.md)  
 [101. Symmetric Tree](./101.%20Symmetric%20Tree.md)  
 [100. Same Tree](./100.%20Same%20Tree.md)  
