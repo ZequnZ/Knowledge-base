@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[131. Palindrome Partitioning](./131.%20Palindrome%20Partitioning.md)  
 [113. Path Sum II](./113.%20Path%20Sum%20II.md)  
 [90. Subsets II](./90.%20Subsets%20II.md)  
 [86. Partition List](./86.%20Partition%20List.md)  
