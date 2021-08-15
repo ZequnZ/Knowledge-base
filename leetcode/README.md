@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[1396. Count Servers that Communicate](./1396.%20Count%20Servers%20that%20Communicate.md)  
 [443. String Compression](./443.%20String%20Compression.md)  
 [991. Array of Doubled Pairs](./991.%20Array%20of%20Doubled%20Pairs.md)  
 [962. Flip String to Monotone Increasing](./962.%20Flip%20String%20to%20Monotone%20Increasing.md)  
