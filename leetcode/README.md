@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[263. Ugly Number](./263.%20Ugly%20Number.md)  
 [228. Summary Ranges](./228.%20Summary%20Ranges.md)  
 [189. Rotate Array](./189.%20Rotate%20Array.md)  
 [1396. Count Servers that Communicate](./1396.%20Count%20Servers%20that%20Communicate.md)  
