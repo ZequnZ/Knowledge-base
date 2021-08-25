@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[292. Nim Game](./292.%20Nim%20Game.md)  
 [263. Ugly Number](./263.%20Ugly%20Number.md)  
 [228. Summary Ranges](./228.%20Summary%20Ranges.md)  
 [189. Rotate Array](./189.%20Rotate%20Array.md)  
