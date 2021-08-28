@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[1063. Best Sightseeing Pair](./1063.%20Best%20Sightseeing%20Pair.md)  
 [331. Verify Preorder Serialization of a Binary Tree](./331.%20Verify%20Preorder%20Serialization%20of%20a%20Binary%20Tree.md)  
 [292. Nim Game](./292.%20Nim%20Game.md)  
 [263. Ugly Number](./263.%20Ugly%20Number.md)  
