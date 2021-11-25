@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[2165. Plates Between Candles](./2165.%20Plates%20Between%20Candles.md)  
 [2181. Smallest Index With Equal Value](./2181.%20Smallest%20Index%20With%20Equal%20Value.md)  
 [448. Find All Numbers Disappeared in an Array](./448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.md)  
 [203. Remove Linked List Elements](./203.%20Remove%20Linked%20List%20Elements.md)  
