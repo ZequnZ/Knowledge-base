@@ -7,3 +7,5 @@ numpy>=1.19
 cachetools>=4.2.1
 html2text
 requests
+statsmodels
+nb_black
