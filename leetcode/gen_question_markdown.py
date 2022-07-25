@@ -59,7 +59,7 @@ def main(args):
 
     # title
     title = (
-        r.json()["data"]["question"]["questionId"]
+        r.json()["data"]["question"]["questionFrontendId"]
         + ". "
         + r.json()["data"]["question"]["title"]
     )
@@ -70,11 +70,16 @@ def main(args):
     )
 
     # Tags
-    tags = ""
-    for tag in r.json()["data"]["question"]["topicTags"][:-1]:
-        tags += "`" + tag["name"] + "`, "
-    tags += "`" + r.json()["data"]["question"]["topicTags"][-1]["name"] + "`"
-    tags = "<details>\n<summary> Tags</summary>\n\n" + tags + "\n</details>\n\n"
+    num_of_tag = len(r.json()["data"]["question"]["topicTags"])
+    # No tag
+    if not num_of_tag:
+        tags = "<details>\n<summary> Tags</summary>\n\n" + "\n</details>\n\n"
+    else: 
+        tags = ""
+        for tag in r.json()["data"]["question"]["topicTags"][:-1]:
+            tags += "`" + tag["name"] + "`, "
+        tags += "`" + r.json()["data"]["question"]["topicTags"][-1]["name"] + "`"
+        tags = "<details>\n<summary> Tags</summary>\n\n" + tags + "\n</details>\n\n"
 
     # content
     content = (
@@ -141,6 +146,8 @@ def main(args):
             for line in lines:
                 f.write(line)
             f.close()
+
+    print(f"Successfully generate file {title}")
 
 
 if __name__ == "__main__":
