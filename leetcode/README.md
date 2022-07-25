@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[2315. Count Asterisks](./2315.%20Count%20Asterisks.md)  
 [2351. First Letter to Appear Twice](./2351.%20First%20Letter%20to%20Appear%20Twice.md)  
 [2165. Plates Between Candles](./2165.%20Plates%20Between%20Candles.md)  
 [2181. Smallest Index With Equal Value](./2181.%20Smallest%20Index%20With%20Equal%20Value.md)  
