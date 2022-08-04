@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[2222. Number of Ways to Select Buildings](./2222.%20Number%20of%20Ways%20to%20Select%20Buildings.md)  
 [2315. Count Asterisks](./2315.%20Count%20Asterisks.md)  
 [2351. First Letter to Appear Twice](./2351.%20First%20Letter%20to%20Appear%20Twice.md)  
 [2165. Plates Between Candles](./2165.%20Plates%20Between%20Candles.md)  
