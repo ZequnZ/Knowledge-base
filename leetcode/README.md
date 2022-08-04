@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[2154. Keep Multiplying Found Values by Two](./2154.%20Keep%20Multiplying%20Found%20Values%20by%20Two.md)  
 [2222. Number of Ways to Select Buildings](./2222.%20Number%20of%20Ways%20to%20Select%20Buildings.md)  
 [2315. Count Asterisks](./2315.%20Count%20Asterisks.md)  
 [2351. First Letter to Appear Twice](./2351.%20First%20Letter%20to%20Appear%20Twice.md)  
