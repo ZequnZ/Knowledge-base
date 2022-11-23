@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[205. Isomorphic Strings](./205.%20Isomorphic%20Strings.md)  
 [2240. Number of Ways to Buy Pens and Pencils](./2240.%20Number%20of%20Ways%20to%20Buy%20Pens%20and%20Pencils.md)  
 [2109. Adding Spaces to a String](./2109.%20Adding%20Spaces%20to%20a%20String.md)  
 [2169. Count Operations to Obtain Zero](./2169.%20Count%20Operations%20to%20Obtain%20Zero.md)  
