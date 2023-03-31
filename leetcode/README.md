@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[2452. Words Within Two Edits of Dictionary](./2452.%20Words%20Within%20Two%20Edits%20of%20Dictionary.md)  
 [2512. Reward Top K Students](./2512.%20Reward%20Top%20K%20Students.md)  
 [2553. Separate the Digits in an Array](./2553.%20Separate%20the%20Digits%20in%20an%20Array.md)  
 [205. Isomorphic Strings](./205.%20Isomorphic%20Strings.md)  
