@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[2457. Minimum Addition to Make Integer Beautiful](./2457.%20Minimum%20Addition%20to%20Make%20Integer%20Beautiful.md)  
 [2456. Most Popular Video Creator](./2456.%20Most%20Popular%20Video%20Creator.md)  
 [2453. Destroy Sequential Targets](./2453.%20Destroy%20Sequential%20Targets.md)  
 [2452. Words Within Two Edits of Dictionary](./2452.%20Words%20Within%20Two%20Edits%20of%20Dictionary.md)  
