@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[1020. Number of Enclaves](./1020.%20Number%20of%20Enclaves.md)  
 [2460. Apply Operations to an Array](./2460.%20Apply%20Operations%20to%20an%20Array.md)  
 [2457. Minimum Addition to Make Integer Beautiful](./2457.%20Minimum%20Addition%20to%20Make%20Integer%20Beautiful.md)  
 [2456. Most Popular Video Creator](./2456.%20Most%20Popular%20Video%20Creator.md)  
