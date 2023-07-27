@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[2788. Split Strings by Separator](./2788.%20Split%20Strings%20by%20Separator.md)  
 [2526. Find Consecutive Integers from a Data Stream](./2526.%20Find%20Consecutive%20Integers%20from%20a%20Data%20Stream.md)  
 [299. Bulls and Cows](./299.%20Bulls%20and%20Cows.md)  
 [1020. Number of Enclaves](./1020.%20Number%20of%20Enclaves.md)  
