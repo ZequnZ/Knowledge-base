@@ -102,6 +102,10 @@
 [696. Count Binary Substrings](./696.%20Count%20Binary%20Substrings.md)  
 [48. Rotate Image](./48.%20Rotate%20Image.md)
 
+
+## Problems need to pay more attention to:
+[373. Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/)
+
 ## Script to get the leetcode question details in a Markdown file
 
 With the following command, a Markdown file with leetcode question information will be generated.
