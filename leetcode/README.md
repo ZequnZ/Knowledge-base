@@ -105,6 +105,7 @@
 
 ## Problems need to pay more attention to:
 [373. Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/)
+[2653. Sliding Subarray Beauty](https://leetcode.com/problems/sliding-subarray-beauty/description/)
 
 ## Script to get the leetcode question details in a Markdown file
 
