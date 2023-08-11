@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: localk8s-lb
+  namespace: localk8s
+spec:
+  ports:
+    - protocol: TCP
+      port: 7010
+      targetPort: 8002
+      nodePort: 30009
+  selector:
+    app: localk8s
+  clusterIP: 10.104.176.19
+  type: LoadBalancer
+status:
+  loadBalancer:
+    ingress:
+    - ip: 127.0.0.1
