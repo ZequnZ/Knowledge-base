@@ -49,17 +49,17 @@ docker-exec:
 	docker exec -it localk8s bash
 
 docker-stop:
-	docker stop  localk8s
+	docker stop localk8s
 
 get-pod:
-	kubectl get pod 
+	kubectl get pod -n localk8s
 
 get-service:
-	kubectl get service
+	kubectl get service -n localk8s
 
 get-ingress:
-	kubectl get ingress
+	kubectl get ingress -n localk8s
 
 get-deployment:
-	kubectl get deployment
+	kubectl get deployment -n localk8s
 
