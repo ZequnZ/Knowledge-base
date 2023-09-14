@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[328. Odd Even Linked List](./328.%20Odd%20Even%20Linked%20List.md)  
 [2829. Determine the Minimum Sum of a k-avoiding Array](./2788.%20Split%20Strings%20by%20Separator.md)
 [2788. Split Strings by Separator](./2788.%20Split%20Strings%20by%20Separator.md)  
 [2526. Find Consecutive Integers from a Data Stream](./2526.%20Find%20Consecutive%20Integers%20from%20a%20Data%20Stream.md)  
