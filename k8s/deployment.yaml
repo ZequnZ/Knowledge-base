@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: localk8s-deployment
+  namespace: localk8s
+  labels:
+    app: localk8s
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: localk8s
+  template:
+    metadata:
+      labels:
+        app: localk8s
+    spec:
+      containers:
+      - name: localk8s
+        image: localk8s
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8002
