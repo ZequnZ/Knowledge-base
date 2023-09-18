@@ -58,6 +58,12 @@ docker exec --interactive --tty broker \
     --replication-factor 1 \
     --partitions 1
 ```
+### GUI for Kafka
+
+If you use VSCode as IDE, you can use this plugin [Tools for Apache Kafka](https://marketplace.visualstudio.com/items?itemName=jeppeandersen.vscode-kafka) to visualize the Kafka within VSCode.
+
+Or you can use this open-source tool [PrettyZoo](https://github.com/vran-dev/PrettyZoo) to do that as well.
+
 ## Develop Kafka in Python  
 
 There are several Python libs for Kafka:
