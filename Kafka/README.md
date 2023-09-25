@@ -106,7 +106,7 @@ python case1.py --id=con01
 ```
 make create-consumer topic_name=topic2 group_id=con_topic2
 ```
-5. Run a producer and publish event to *topic1*
+5. Run a producer and publish event to *topic1*, here I put it into [notebook](case1_producer.ipynb)
 
 
 ref:  
