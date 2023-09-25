@@ -1,0 +1,12 @@
+CONSUMER consumer-group-id
+topic: example-topic
+partitions: 0
+from: 0
+
+CONSUMER consumer-group-2
+topic: another_topic
+from: earliest
+
+CONSUMER consumer-plge
+topic: notebook-topic
+from: earliest
