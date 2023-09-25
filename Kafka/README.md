@@ -36,7 +36,8 @@ To spin the docker-compose file, just:
 `docker-compose up -d`
 
 And then we can create a producer:
-```docker exec --interactive --tty broker \
+```
+docker exec --interactive --tty broker \
 kafka-console-producer --bootstrap-server localhost:9092 \
 --topic example-topic
 ```
@@ -74,6 +75,38 @@ There are several Python libs for Kafka:
 Here I choose *confluent-kafka*.  
 You can go through the [notebook](kafka_basic.ipynb) to know how it works in Python.
  
+## Kafka practice
+
+### Case1
+
+ I create an APP consisting a producer and consumer that can receive events from Kafka then do some work and publish events to downstream consumer.  
+
+![](./asset/case1_diagram.png)
+
+The **scalability** of Kafka can be easily shown in the case. We can spin up multiple apps with the same consumer *group id*, so that the events of Topic1 can be distributed and each App can have better performance, especially when the traffic is high.
+
+Here I spin up 2 apps and it runs like:
+![](./asset/case1.png)
+
+To reproduce it:
+
+1. Spin up Kakfa: `make run-kafka`  
+2. Create two topics:
+```
+make create-topic topic_name=topic1 topic_partition=2
+```
+```
+make create-topic topic_name=topic2 topic_partition=1
+```
+3. Run two apps, each in one tab:
+```
+python case1.py --id=con01
+```
+4. Run a consumer as downstream service:
+```
+make create-consumer topic_name=topic2 group_id=con_topic2
+```
+5. Run a producer and publish event to *topic1*
 
 
 ref:  
