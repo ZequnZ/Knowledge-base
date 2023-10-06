@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[396. Rotate Function](./396.%20Rotate%20Function.md)  
 [355. Design Twitter](./355.%20Design%20Twitter.md)  
 [388. Longest Absolute File Path](./388.%20Longest%20Absolute%20File%20Path.md)  
 [328. Odd Even Linked List](./328.%20Odd%20Even%20Linked%20List.md)  
