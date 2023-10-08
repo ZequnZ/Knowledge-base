@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[413. Arithmetic Slices](./413.%20Arithmetic%20Slices.md)  
 [404. Sum of Left Leaves](./404.%20Sum%20of%20Left%20Leaves.md)  
 [396. Rotate Function](./396.%20Rotate%20Function.md)  
 [355. Design Twitter](./355.%20Design%20Twitter.md)  
