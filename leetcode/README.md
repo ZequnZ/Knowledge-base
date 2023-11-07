@@ -1,5 +1,6 @@
 # Leetcode collections
 
+[2810. Faulty Keyboard](./2810.%20Faulty%20Keyboard.md)  
 [2870. Minimum Number of Operations to Make Array Empty](./2870.%20Minimum%20Number%20of%20Operations%20to%20Make%20Array%20Empty.md)  
 [413. Arithmetic Slices](./413.%20Arithmetic%20Slices.md)  
 [404. Sum of Left Leaves](./404.%20Sum%20of%20Left%20Leaves.md)  
