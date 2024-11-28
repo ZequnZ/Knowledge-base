@@ -22,6 +22,7 @@ def main(args):
 
     question = (" ").join(args.title).lower().replace(" ", "-")
     question_link = "https://leetcode.com/problems/" + question + "/"
+    # print(question_link)
     query = {
         "operationName": "questionData",
         "variables": {"titleSlug": question},
