@@ -1,8 +1,8 @@
 import uvicorn
 from fastapi import FastAPI, status
 
-app = FastAPI()
 VERSION = 1.0
+app = FastAPI(version=VERSION)
 
 
 @app.get("/")

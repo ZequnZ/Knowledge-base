@@ -100,6 +100,41 @@ Besides, you can also go to the dashboard, select namespace=`localk8s` to see:
 ![](./asset/dashboard_service.png)
 
 
+## History of deployments
+
+Check Deployment Rollout History
+```
+kubectl rollout history deployment/localk8s-deployment -n localk8s
+```
+
+Get Detailed Information About a Specific Revision
+```
+kubectl rollout history deployment/localk8s-deployment --revision=2 -n localk8s
+```
+
+See all revisions with custom formatting
+```
+# First get the revision numbers
+kubectl rollout history deployment/localk8s-deployment -n localk8s
+
+# Then for each revision, get details
+for rev in 1 2 3; do
+  echo "=== Revision $rev ==="
+  kubectl rollout history deployment/localk8s-deployment -n localk8s --revision=$rev
+  echo
+done
+```
+
+Rollback to Previous Revision (Most Common)
+```
+kubectl rollout undo deployment/localk8s-deployment -n localk8s
+```
+
+Rollback to a Specific Revision
+```
+kubectl rollout undo deployment/localk8s-deployment --to-revision=1 -n localk8s
+```
+
 ## Interact with it 
 
 TODO

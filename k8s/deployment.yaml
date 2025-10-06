@@ -17,7 +17,8 @@ spec:
     spec:
       containers:
       - name: localk8s
-        image: localk8s
+        # Add the image here(including version tag)
+        image: localk8s:1.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8002
